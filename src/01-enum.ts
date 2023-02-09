@@ -9,7 +9,7 @@ type User = {
   role: ROLES;
 };
 
-const user: User = {
+const username: User = {
   username: 'John',
   role: ROLES.ADMIN,
 };
