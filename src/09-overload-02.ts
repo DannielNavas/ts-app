@@ -39,3 +39,7 @@ console.log(rta2);
 
 const rta3 = parseString(10);
 console.log(rta3);
+
+//TODO: el unknow debe ir al final de la lista de sobre cargas
+// TODO: No crear sobre cargas inecesarías, solo cuando sea necesario
+// TODO: REvisar si se puede solucionar con union type
