@@ -7,6 +7,9 @@ addProduct({
   size: 'small',
   category: {
     id: 1,
+    createAt: new Date(),
+    updateAt: new Date(),
     name: 'Ropa',
   },
+  updateAt: new Date(),
 });
