@@ -1,5 +1,6 @@
 export interface BaseModel {
-  id: string | number;
+  // TODO: atributo de solo lectura
+  readonly id: string | number;
   createAt: Date;
   updateAt: Date;
 }
