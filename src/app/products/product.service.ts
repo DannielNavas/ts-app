@@ -24,7 +24,7 @@ export const addProduct = (data: CreateProductDto): Product => {
   products.push(newProduct);
   return newProduct;
 };
-
+//TODO: se obtine el tipado id: Product['id']
 export const updatedProduct = (
   id: string | number,
   changes: UpdateProductDto
