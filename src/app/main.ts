@@ -33,4 +33,5 @@ findProducts({
   stock: 10,
   color: 'red',
   isNew: true,
+  tags: ['tag1', 'tag2'],
 });

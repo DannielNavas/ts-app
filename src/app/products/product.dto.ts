@@ -11,6 +11,11 @@ export interface UpdateProductDto extends Partial<CreateProductDto> {}
 // TODO: Deja todo obligatorio
 type example2 = Required<Product>;
 // TODO: Deja una interface PArcial pero solo de lectura no se puede sobre escribir el parametro
-export interface FindProductDto extends Readonly<Partial<Product>> {}
+export interface FindProductDto
+  extends Readonly<Partial<Omit<Product, 'tags'>>> {
+  // TODO: primer readonly no permite reescribir
+  // TODO: segundo readonly no permite mutar el array
+  readonly tags: ReadonlyArray<string>;
+}
 
 // type example2 = Readonly<Product>;

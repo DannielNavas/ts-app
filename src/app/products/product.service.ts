@@ -46,6 +46,8 @@ export const deleteProduct = (id: string) => {
 
 export const findProducts = (dto: FindProductDto): Product[] => {
   // dto.isNew = false;
+  // dto.tags?.push();
+  // dto.tags?.pop();
   return products;
 };
 
